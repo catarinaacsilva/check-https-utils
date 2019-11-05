@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="check-https-utils",
+    name="check_https_utils",
     version="0.0.1",
     author="Catarina Silva",
     author_email="c.alexandracorreia@ua.pt",
