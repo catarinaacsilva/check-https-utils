@@ -19,6 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=['psycopg2>=2.8.3', 'selenium>=3.141.0', 
-    'requests>=2.22.0', 'beautifulsoup4>=4.8.1'],
+    install_requires=['psycopg2>=2.8.3'],
 )
