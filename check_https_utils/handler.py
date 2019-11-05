@@ -127,6 +127,9 @@ class PostgreSQL():
     def close(self):
         self.cursor.close()
         self.connection.close()
+    
+    def __del__(self):
+        self.close()
 
 #date =  datetime.datetime(2018, 11, 20)
 #print(date)
